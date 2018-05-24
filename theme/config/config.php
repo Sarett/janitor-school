@@ -39,6 +39,6 @@ define("SITE_ITEMS", true);
 define("SITE_COLLECT_NOTIFICATIONS", 50);
 
 // INSTALL MODE (DISABLES ALL SECURITY)
-//define("SITE_INSTALL", true);
+// define("SITE_INSTALL", true);
 
 ?>
