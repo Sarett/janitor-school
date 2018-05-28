@@ -1,0 +1,31 @@
+/* New page for CSS for my templates. */
+.sarahtemplate * {
+	font-family: OpenSans;
+}
+
+.sarahtemplate p {
+	color: darkblue;
+	text-align: justify;
+}
+
+.sarahtemplate h1 {
+	color: darkgreen;
+	text-align: center;
+}
+
+.sarahtemplate h1,
+.sarahtemplate h2,
+.sarahtemplate h3,
+.sarahtemplate h4 {
+	font-weight: bold;
+}
+
+#content div.sarahtemplate {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.sarahtemplate .info {
+	text-align: right;
+	width: 600px;
+}

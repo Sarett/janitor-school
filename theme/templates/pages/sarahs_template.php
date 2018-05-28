@@ -1,4 +1,4 @@
-<div class="scene front i:front" itemscope itemtype="http://schema.org/NewsArticle">
+<div class="sarahtemplate scene i:sarah" itemscope itemtype="http://schema.org/NewsArticle">
 
 	<h1 itemprop="headline">Sarah's template test</h1>
 

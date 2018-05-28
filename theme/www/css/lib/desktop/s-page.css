@@ -35,15 +35,17 @@ h4 {padding: 0 50px 5px; font-size: 14px; line-height: 1em; font-weight: bold;}
 h5 {padding: 0 50px 2px; font-size: 14px; line-height: 1em; font-weight: bold;}
 h6 {padding: 0 50px 2px; font-size: 14px; line-height: 1em; font-weight: bold;}
 
-p {padding: 0 50px 20px; font-size: 14px; line-height: 1.38em;} 
 
+p {padding: 0 50px 20px; font-size: 14px; line-height: 1.38em; color: green}
+/* Sarah test update for 407: amend properties of p. WORKS! */
+/* Original: p {padding: 0 50px 20px; font-size: 14px; line-height: 1.38em;} */
 
 ul,
 ol {font-size: 0;}
 li {font-size: 13px; line-height: 1.25em;}
 
-dl {font-size: 0;} 
-dt, 
+dl {font-size: 0;}
+dt,
 dd {display: inline-block; vertical-align: top; font-size: 13px; line-height: 1.25em;}
 
 
