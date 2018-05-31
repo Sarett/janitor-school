@@ -1,5 +1,5 @@
 <?php
-$access_item["/"] = true;
+$access_item["/"] = false;
 $access_item["/comments"] = true;
 $access_item["/addComment"] = "/comments";
 if(isset($read_access) && $read_access) {
@@ -11,12 +11,11 @@ include_once($_SERVER["FRAMEWORK_PATH"]."/config/init.php");
 
 $action = $page->actions();
 $IC = new Items();
-$itemtype = "post";
+$itemtype = "sarah";
 $model = $IC->typeObject($itemtype);
 
-
 $page->bodyClass($itemtype);
-$page->pageTitle("Posts");
+$page->pageTitle("Sarah's Model");
 
 
 if(is_array($action) && count($action)) {

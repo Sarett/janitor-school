@@ -108,7 +108,7 @@ dd {display: inline-block; vertical-align: top; font-size: 13px; line-height: 1.
 #content .scene h4,
 #content .scene h5,
 #content .scene h6,
-#content .scene p {width: 600px;}
+#content .scene p {width: 100%;}
 #content .scene hr {border: none; border-top: 1px solid #888888; margin: 30px 0 50px; padding: 0;}
 #content .scene p.note {font-style: italic;}
 #content .scene p+h2,
@@ -329,6 +329,8 @@ dd {display: inline-block; vertical-align: top; font-size: 13px; line-height: 1.
 .sarahtemplate p {
 	color: darkblue;
 	text-align: justify;
+	width: 100%;
+	box-sizing: border-box;
 }
 .sarahtemplate h1 {
 	color: darkgreen;
@@ -339,13 +341,19 @@ dd {display: inline-block; vertical-align: top; font-size: 13px; line-height: 1.
 .sarahtemplate h3,
 .sarahtemplate h4 {
 	font-weight: bold;
+	width: 100%;
+	box-sizing: border-box;
 }
 #content div.sarahtemplate {
+	width: 800px;
+	box-sizing: content-box;
+	margin: auto;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
 .sarahtemplate .info {
 	text-align: right;
-	width: 600px;
+	width: 800px;
+	box-sizing: border-box;
 }
 
