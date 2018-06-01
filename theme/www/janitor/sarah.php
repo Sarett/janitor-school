@@ -17,7 +17,6 @@ $model = $IC->typeObject($itemtype);
 $page->bodyClass($itemtype);
 $page->pageTitle("Sarah's Model");
 
-
 if(is_array($action) && count($action)) {
 
 	// LIST/EDIT/NEW ITEM
@@ -45,7 +44,8 @@ if(is_array($action) && count($action)) {
 }
 
 $page->page(array(
-	"templates" => "pages/404.php"
+	"type" => "janitor",
+	"templates" => "janitor/".$itemtype."/list.php"
 ));
 
 ?>
